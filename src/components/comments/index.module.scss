@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  .flexs {
+    .raiting {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      .icons {
+        display: flex;
+        gap: 5px;
+        svg {
+          width: 16px;
+          height: 16px;
+        }
+      }
+      .comments {
+        h2 {
+          font-family: "Josefin Sans", sans-serif;
+          font-size: 20px;
+        }
+      }
+    }
+    .peoples {
+        padding-top: 30px;
+      .people1 {
+        padding-top: 30px;
+
+        .name {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          .icons1{
+            display: flex;
+            padding-left: 20px;
+            gap: 5px;
+          }
+          .peoplename {
+            h2 {
+                font-size: 18px;
+              font-family: "Josefin Sans", sans-serif;
+            }
+          }
+        }
+        .commentpeople{
+            padding-top: 20px;
+            p{
+          font-family: "Josefin Sans", sans-serif;
+width: 300px;
+padding-left: 20px;
+display: -webkit-box;
+-webkit-line-clamp: 7;
+-webkit-box-orient: vertical;  
+overflow: hidden;
+            }
+        }
+      }
+      .people2 {
+        padding-top: 30px;
+        .name2 {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          .icons2{
+            display: flex;
+            padding-left: 20px;
+            gap: 5px;
+          }
+          .peoplename2 {
+            h2 {
+                font-size: 18px;
+              font-family: "Josefin Sans", sans-serif;
+            }
+          }
+        }
+        .commentpeople2{
+            padding-top: 20px;
+            p{
+          font-family: "Josefin Sans", sans-serif;
+width: 300px;
+padding-left: 20px;
+display: -webkit-box;
+-webkit-line-clamp: 7;
+-webkit-box-orient: vertical;  
+overflow: hidden;
+            }
+        }
+      }
+      .people3 {
+        padding-top: 30px;
+        .name3 {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          .icons3{
+            display: flex;
+            padding-left: 20px;
+            gap: 5px;
+          }
+          .peoplename3 {
+            h2 {
+                font-size: 18px;
+              font-family: "Josefin Sans", sans-serif;
+            }
+          }
+        }
+        .commentpeople3{
+            padding-top: 20px;
+            p{
+          font-family: "Josefin Sans", sans-serif;
+width: 300px;
+padding-left: 20px;
+display: -webkit-box;
+-webkit-line-clamp: 7;
+-webkit-box-orient: vertical;  
+overflow: hidden;
+            }
+        }
+      }
+    }
+  }
+}
+@media(min-width:992px){
+    .background{
+        .flexs{
+            padding-bottom: 50px;
+            .raiting{
+                padding-top: 50px;
+                .comments{
+                    h2{
+                        font-size: 30px;
+                    }
+                }
+            }
+            .peoples{
+                display: flex;
+                justify-content: space-around;
+                
+               
+            }
+        }
+    }
+}

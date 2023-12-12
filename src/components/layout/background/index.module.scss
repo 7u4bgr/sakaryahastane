@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+.background {
+  .background1 {
+
+    background: var(--2, #e95258);
+padding-bottom: 0;
+margin-bottom: 0;
+    .flexs {
+      padding-top: 20px;
+   
+      .texts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        div {
+          h2 {
+            font-family: "Josefin Sans", sans-serif;
+            color: white;
+            font-size: 15px;
+          }
+        }
+        .ptexts {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+          padding-top: 20px;
+          p {
+            color: white;
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 9px;
+          }
+        }
+      }
+      .images{
+        padding-bottom: 0;
+        margin-bottom: 0;
+        vertical-align: bottom;
+        img{
+            width: 60%;
+            vertical-align: bottom;
+            padding-bottom: 0;
+            object-fit: cover;
+        }
+      }
+    }
+  }
+  .background2{
+    background: white;
+padding-bottom: 0;
+margin-bottom: 0;
+padding-bottom: 20px;
+    .flexs1{
+      padding-top: 20px;
+
+      .texts1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        div {
+          h2 {
+            font-family: "Josefin Sans", sans-serif;
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+          }
+        }
+        .ptexts1{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+          padding-top: 20px;
+          p {
+            color: rgb(0, 0, 0);
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 11px;
+          }
+        }
+      }
+      .images1{
+        padding-bottom: 0;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+        vertical-align: bottom;
+
+        img{
+            width: 60%;
+            padding-bottom: 0;
+            vertical-align: bottom;
+
+            object-fit: cover;
+        }
+      }
+    }
+  }
+}
+@media(min-width:768px){
+  .background{
+    .background1{
+      .flexs{
+        .texts{
+          div{
+            h2{
+              font-size: 22px;
+            }
+          }
+          .ptexts{
+            padding-top: 40px;
+            p{
+              font-size: 14px;
+            }
+          }
+        }
+        .images{
+          img{
+            width: 50%;
+            height: 50vh;
+          }
+        }
+      }
+    }
+    .background2{
+      .flexs1{
+        .texts1{
+          div{
+            h2{
+              font-size: 22px;
+            }
+          }
+          .ptexts1{
+            padding-top: 40px;
+            p{
+              font-size: 14px;
+            }
+          }
+        }
+        .images1{
+          display: flex;
+          justify-content: flex-end;
+          img{
+            width: 70%;
+            height: 50vh;
+          }
+        }
+      }
+    }
+  }
+}
+@media(min-width:992px){
+  .background{
+    display: flex;
+    flex-direction: row-reverse;
+    .background1{
+      width: 50%;
+      .flexs{
+        
+        .texts{
+          div{
+            h2{
+              font-size: 28px;
+            }
+          }
+          .ptexts{
+            padding-top: 40px;
+            p{
+              font-size: 17px;
+            }
+          }
+        }
+        .images{
+display: flex;
+justify-content: flex-end;
+          img{
+            transform: rotateY(180deg);
+
+            width: 40%;
+            height: 63.4vh;
+         
+          }
+        }
+      }
+    }
+    .background2{
+      width: 50%;
+      padding-bottom: 0;
+      .flexs1{
+        .texts1{
+          div{
+            h2{
+              font-size: 28px;
+            }
+          }
+          .ptexts1{
+            padding-top: 40px;
+            p{
+              font-size: 17px;
+            }
+          }
+        }
+        .images1{
+          display: flex;
+          justify-content: flex-start;
+          img{
+            transform: rotateY(180deg);
+            width: 60%;
+            height: 65vh;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}

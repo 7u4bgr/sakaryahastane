@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.background .background1 {
+  background: var(--2, #e95258);
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.background .background1 .flexs {
+  padding-top: 20px;
+}
+.background .background1 .flexs .texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.background .background1 .flexs .texts div h2 {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  font-size: 15px;
+}
+.background .background1 .flexs .texts .ptexts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding-top: 20px;
+}
+.background .background1 .flexs .texts .ptexts p {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 9px;
+}
+.background .background1 .flexs .images {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  vertical-align: bottom;
+}
+.background .background1 .flexs .images img {
+  width: 60%;
+  vertical-align: bottom;
+  padding-bottom: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.background .background2 {
+  background: white;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+.background .background2 .flexs1 {
+  padding-top: 20px;
+}
+.background .background2 .flexs1 .texts1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.background .background2 .flexs1 .texts1 div h2 {
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+.background .background2 .flexs1 .texts1 .ptexts1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding-top: 20px;
+}
+.background .background2 .flexs1 .texts1 .ptexts1 p {
+  color: rgb(0, 0, 0);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 11px;
+}
+.background .background2 .flexs1 .images1 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  vertical-align: bottom;
+}
+.background .background2 .flexs1 .images1 img {
+  width: 60%;
+  padding-bottom: 0;
+  vertical-align: bottom;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .background .background1 .flexs .texts div h2 {
+    font-size: 22px;
+  }
+  .background .background1 .flexs .texts .ptexts {
+    padding-top: 40px;
+  }
+  .background .background1 .flexs .texts .ptexts p {
+    font-size: 14px;
+  }
+  .background .background1 .flexs .images img {
+    width: 50%;
+    height: 50vh;
+  }
+  .background .background2 .flexs1 .texts1 div h2 {
+    font-size: 22px;
+  }
+  .background .background2 .flexs1 .texts1 .ptexts1 {
+    padding-top: 40px;
+  }
+  .background .background2 .flexs1 .texts1 .ptexts1 p {
+    font-size: 14px;
+  }
+  .background .background2 .flexs1 .images1 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .background .background2 .flexs1 .images1 img {
+    width: 70%;
+    height: 50vh;
+  }
+}
+@media (min-width: 992px) {
+  .background {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .background .background1 {
+    width: 50%;
+  }
+  .background .background1 .flexs .texts div h2 {
+    font-size: 28px;
+  }
+  .background .background1 .flexs .texts .ptexts {
+    padding-top: 40px;
+  }
+  .background .background1 .flexs .texts .ptexts p {
+    font-size: 17px;
+  }
+  .background .background1 .flexs .images {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .background .background1 .flexs .images img {
+    transform: rotateY(180deg);
+    width: 40%;
+    height: 63.4vh;
+  }
+  .background .background2 {
+    width: 50%;
+    padding-bottom: 0;
+  }
+  .background .background2 .flexs1 .texts1 div h2 {
+    font-size: 28px;
+  }
+  .background .background2 .flexs1 .texts1 .ptexts1 {
+    padding-top: 40px;
+  }
+  .background .background2 .flexs1 .texts1 .ptexts1 p {
+    font-size: 17px;
+  }
+  .background .background2 .flexs1 .images1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .background .background2 .flexs1 .images1 img {
+    transform: rotateY(180deg);
+    width: 60%;
+    height: 65vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}/*# sourceMappingURL=index.module.css.map */

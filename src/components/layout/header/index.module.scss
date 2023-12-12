@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  display: flex;
+  .background1 {
+    background: var(--2, #ffffff);
+    width: 50%;
+    .flexs {
+      .texts {
+        padding-bottom: 20px;
+        
+        cursor: pointer;
+        text-decoration: none;
+        padding-top: 20px;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        h2 {
+            color: black;
+          font-size: 14px;
+          font-family: "Josefin Sans", sans-serif;
+          font-weight: bolder;
+        }
+        svg {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .background2 {
+    background: var(--2, #e95258);
+    width: 50%;
+ 
+    .flexs1 {
+      .texts1 {
+        padding-bottom: 20px;
+
+        padding-top: 20px;
+        padding-left: 10px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 15px;
+        a{
+            text-decoration: none;
+            cursor: pointer;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          h2 {
+            font-family: "Josefin Sans", sans-serif;
+            color: white;
+          }
+          div {
+            background-color: white;
+            padding: 10px;
+            border-radius: 20px;
+            svg {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media(min-width:992px){
+    .background{
+        .background1{
+            .flexs{
+                padding-bottom: 20px;
+
+                    .texts{
+                        svg{
+                            width: 40px;
+                            height: 40px;
+                        }
+                        h2{
+                            font-size: 21px;
+                        }
+                    }
+            }
+        }
+        .background2{
+            .flexs1{
+                padding-bottom: 20px;
+                .texts1{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
