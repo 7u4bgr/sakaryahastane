@@ -15,7 +15,7 @@
   padding-bottom: 20px;
   cursor: pointer;
   text-decoration: none;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-left: 10px;
   display: flex;
   align-items: center;
@@ -27,9 +27,20 @@
   font-family: "Josefin Sans", sans-serif;
   font-weight: bolder;
 }
-.background .background1 .flexs .texts svg {
-  width: 40px;
-  height: 40px;
+.background .background1 .flexs .texts img {
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+}
+.background .background1 .flexs .hiddeninfo {
+  display: flex;
+  justify-content: center;
+}
+.background .background1 .flexs .hiddeninfo p {
+  color: black;
+  font-size: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
 }
 .background .background2 {
   background: var(--2, #e95258);
@@ -70,6 +81,10 @@
   }
   .background .background1 .flexs .texts h2 {
     font-size: 21px;
+  }
+  .background .background1 .flexs .hiddeninfo {
+    padding-left: 70px;
+    justify-content: flex-start;
   }
   .background .background2 .flexs1 {
     padding-bottom: 20px;
