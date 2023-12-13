@@ -25,6 +25,7 @@ const Header = () => {
           </Link>
           <div className={styles.sakaryatexts}>
             <h2>SAKARYA</h2>
+            <p>Düzce,Kocaeli,İstanbul</p>
           </div>
           </div>
         </div>

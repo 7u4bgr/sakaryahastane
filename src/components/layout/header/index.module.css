@@ -52,11 +52,20 @@
 .background .background1 .flexs .controlsakarya .sakaryatexts {
   display: flex;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 20px;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
 }
 .background .background1 .flexs .controlsakarya .sakaryatexts h2 {
   color: black;
   font-size: 24px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
+}
+.background .background1 .flexs .controlsakarya .sakaryatexts p {
+  color: black;
+  font-size: 14px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: bolder;
 }
