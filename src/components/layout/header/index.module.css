@@ -19,11 +19,24 @@
 .background .background1 .flexs .controlsakarya .texts {
   padding-bottom: 20px;
   padding-left: 20px;
+  padding-top: 20px;
   cursor: pointer;
   text-decoration: none;
   display: flex;
   align-items: center;
   gap: 15px;
+}
+.background .background1 .flexs .controlsakarya .texts .eternal {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+}
+.background .background1 .flexs .controlsakarya .texts .eternal p {
+  color: black;
+  font-size: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
 }
 .background .background1 .flexs .controlsakarya .texts h2 {
   color: black;
@@ -32,9 +45,20 @@
   font-weight: bolder;
 }
 .background .background1 .flexs .controlsakarya .texts img {
-  border-radius: 25px;
-  width: 25px;
-  height: 25px;
+  border-radius: 35px;
+  width: 35px;
+  height: 35px;
+}
+.background .background1 .flexs .controlsakarya .sakaryatexts {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.background .background1 .flexs .controlsakarya .sakaryatexts h2 {
+  color: black;
+  font-size: 24px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
 }
 .background .background1 .flexs .controlsakarya .hiddeninfo {
   display: flex;
@@ -42,15 +66,6 @@
 .background .background1 .flexs .controlsakarya .hiddeninfo img {
   width: 60%;
   height: 10vh;
-}
-.background .background1 .flexs .controlsakarya .psakarya {
-  padding-left: 20px;
-}
-.background .background1 .flexs .controlsakarya .psakarya p {
-  color: black;
-  font-size: 10px;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: bolder;
 }
 .background .background2 {
   background: var(--2, #e95258);
@@ -96,15 +111,12 @@
   .background .background1 .flexs .controlsakarya .texts h2 {
     font-size: 21px;
   }
-  .background .background1 .flexs .controlsakarya .hiddeninfo img {
-    height: 20vh;
-    width: 60%;
-  }
-  .background .background1 .flexs .controlsakarya .psakarya {
-    padding-left: 50px;
+  .background .background1 .flexs .controlsakarya .texts img {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
   }
   .background .background2 .flexs1 {
-    padding-top: 35px;
     padding-bottom: 20px;
   }
   .background .background2 .flexs1 .texts1 {

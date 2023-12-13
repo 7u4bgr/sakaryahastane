@@ -12,16 +12,19 @@ const Header = () => {
          
           <div className={styles.controlsakarya}>
 
-          <div className={styles.hiddeninfo}>
-            <img src={Sakaryaimages} alt="" />
-            
-          </div>
+        
           <Link to={'/'} className={styles.texts}>
            <img src={Logoimages} alt="" />
-            <h2>Eternal Sağlık Hizmetleri</h2>
-          </Link>
-          <div className={styles.psakarya}>
+           <div className={styles.eternal}>
+
+           <h2>Eternal </h2>
+            <h2>Sağlık Hizmetleri</h2>
           <p>(Tüm Hakları Saklıdır)</p>
+           </div>
+          
+          </Link>
+          <div className={styles.sakaryatexts}>
+            <h2>SAKARYA</h2>
           </div>
           </div>
         </div>
