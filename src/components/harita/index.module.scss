@@ -24,7 +24,8 @@
     .maps {
       display: flex;
       justify-content: center;
-      iframe {
+      img {
+        width: 70%;
         border-radius: 15px;
       }
     }
@@ -159,16 +160,17 @@
         }
       }
       .maps {
-        iframe {
-          width: 50%;
-          height: 50vh;
+        img {
+         width: 20%;
+        
         }
       }
       .controls{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
+      display: grid;
+  grid-template-columns: repeat(3, 1fr);
+       .text2{
+        padding-top: 0;
+       }
       }
     }
   }

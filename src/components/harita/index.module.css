@@ -27,7 +27,8 @@
   display: flex;
   justify-content: center;
 }
-.background .flexs .maps iframe {
+.background .flexs .maps img {
+  width: 70%;
   border-radius: 15px;
 }
 .background .flexs .controls .text1 {
@@ -142,14 +143,14 @@
   .background .flexs .texts h2 {
     font-size: 25px;
   }
-  .background .flexs .maps iframe {
-    width: 50%;
-    height: 50vh;
+  .background .flexs .maps img {
+    width: 20%;
   }
   .background .flexs .controls {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .background .flexs .controls .text2 {
+    padding-top: 0;
   }
 }/*# sourceMappingURL=index.module.css.map */

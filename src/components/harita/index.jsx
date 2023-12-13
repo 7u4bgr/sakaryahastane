@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./index.module.css";
+import Terapiimages from '../../assets/images/terapi.jpeg'
 const Harita = () => {
   return (
     <div className={styles.background}>
@@ -8,7 +9,7 @@ const Harita = () => {
           <h2>Bize Ulaşın:</h2>
         </div>
         <div className={styles.maps}>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.33256918443!2d30.392358076441347!3d40.77670223365137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccb3319157902d%3A0xf9d992cc34e0f718!2sSakarya%20Evde%20Sa%C4%9Fl%C4%B1k%20Hizmetleri%20(E.S.H)!5e0!3m2!1str!2saz!4v1702411660360!5m2!1str!2saz"></iframe>
+          <img src={Terapiimages} alt="" />
         </div>
         <div className={styles.controls}>
           <div className={styles.text1}>
@@ -38,9 +39,7 @@ const Harita = () => {
             </div>
             <div className={styles.pcontrol2}>
               <p>
-                Semerciler Mahallesi Lüleci Sokak Bem Bir Sen Karşısı Platin
-                Bilardo çaprazı Klas Kahve bitişiği Karşı Sokak ESKİ VATAN
-                HASTANESİ No:9 54100 Adapazarı/Sakarya Türkiye
+              Serdivan Muhsin Yazıcıoğlu bulvarı Adatepe plaza No 54/1
               </p>
             </div>
           </div>

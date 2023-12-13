@@ -17,7 +17,7 @@ const Background = () => {
               <p>▪ C Vitamini Destek Tedavisi</p>
               <p>▪ Glutatyon & Pascorbin Seansları</p>
               <p>▪ Ozon Terapi </p>
-              <p>▪ Evde Sağlık Hizmetleri</p>
+              <p>▪ Evde Sağlık Doktor Hizmeti</p>
               <p>▪ Evde Hemşirelik Hizmeti</p>
               <p>▪ Enjeksiyon (iğne)</p>
               <p>▪ Serum Takma</p>
