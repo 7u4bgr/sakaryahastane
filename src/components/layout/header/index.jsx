@@ -48,7 +48,7 @@ const Header = () => {
             <Link
             target="_blank"
               to={
-                "https://www.google.com/maps/dir//Sakarya+Evde+Sa%C4%9Fl%C4%B1k+Hizmetleri+(E.S.H)/@40.7766689,30.3125322,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14ccb3319157902d:0xf9d992cc34e0f718!2m2!1d30.394933!2d40.7766982?entry=ttu"
+                "https://www.google.com/maps/place/Bah%C3%A7elievler,+Muhsin+Yaz%C4%B1c%C4%B1o%C4%9Flu+Blv.+No:54+D:1,+54050+Serdivan%2FSakarya,+T%C3%BCrkiye/@40.7603312,30.362931,17z/data=!3m1!4b1!4m5!3m4!1s0x14ccb28d588a2687:0x2495af4d4bf56709!8m2!3d40.7603272!4d30.3655059?entry=ttu"
               }
             >
               <div>
