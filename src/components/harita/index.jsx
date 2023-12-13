@@ -32,14 +32,14 @@ const Harita = () => {
             </div>
             <div className={styles.buttoncontrol2}>
               <button>
-                <a target="_blank" href="https://www.google.com/maps/place/Bah%C3%A7elievler,+Muhsin+Yaz%C4%B1c%C4%B1o%C4%9Flu+Blv.+No:54+D:1,+54050+Serdivan%2FSakarya,+T%C3%BCrkiye/@40.7603312,30.362931,17z/data=!3m1!4b1!4m5!3m4!1s0x14ccb28d588a2687:0x2495af4d4bf56709!8m2!3d40.7603272!4d30.3655059?entry=ttu">
+                <a target="_blank" href="https://www.google.com/maps/dir//%C4%B0stiklal,+Adatepe+Plaza,+Muhsin+Yaz%C4%B1c%C4%B1o%C4%9Flu+Blv.,+54050+Serdivan%2FSakarya,+T%C3%BCrkiye/@40.8652287,30.2460792,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14ccb2ebd17d54e9:0x31b4ecaff034bfa9!2m2!1d30.3714538!2d40.7653561?entry=ttu">
                   Yol Tarifi Al
                 </a>
               </button>
             </div>
             <div className={styles.pcontrol2}>
               <p>
-              Serdivan Muhsin Yazıcıoğlu bulvarı Adatepe plaza No 54/1
+              SAKARYA SERDIVAN/ Muhsin Yazıcıoğlu bulvarı Adatepe plaza No 54/1
               </p>
             </div>
           </div>
