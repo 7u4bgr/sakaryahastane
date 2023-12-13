@@ -3,17 +3,26 @@ import styles from "./index.module.css";
 import { CalendarIcon, CallIcon, HospitalIcon, MapIcon } from "../../../icons";
 import { Link } from "react-router-dom";
 import Logoimages from '../../../assets/images/kalp.jpeg'
+import Sakaryaimages from '../../../assets/images/sakarya.webp'
 const Header = () => {
   return (
     <div className={styles.background}>
       <div className={styles.background1}>
         <div className={styles.flexs}>
+         
+          <div className={styles.controlsakarya}>
+
+          <div className={styles.hiddeninfo}>
+            <img src={Sakaryaimages} alt="" />
+            
+          </div>
           <Link to={'/'} className={styles.texts}>
            <img src={Logoimages} alt="" />
             <h2>Eternal Sağlık Hizmetleri</h2>
           </Link>
-          <div className={styles.hiddeninfo}>
-            <p>(Tüm Hakları Saklıdır)</p>
+          <div className={styles.psakarya}>
+          <p>(Tüm Hakları Saklıdır)</p>
+          </div>
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ const Background = () => {
               <p>▪ Atom Serum Tedavisi</p>
               <p>▪ Kokteyl Serum Tedavisi</p>
               <p>▪ C Vitamini Destek Tedavisi</p>
-              <p>▪ Glutatyon & Pascorbin Seasları</p>
+              <p>▪ Glutatyon & Pascorbin Seansları</p>
               <p>▪ Ozon Terapi </p>
               <p>▪ Evde Sağlık Hizmetleri</p>
               <p>▪ Evde Hemşirelik Hizmeti</p>
