@@ -16,7 +16,7 @@ const Background = () => {
               <p>▪ Kokteyl Serum Tedavisi</p>
               <p>▪ C Vitamini Destek Tedavisi</p>
               <p>▪ Glutatyon & Pascorbin Seansları</p>
-              <p>▪ Ozon Terapi </p>
+              <p>▪ Covid-19 (PCR Testi) </p>
               <p>▪ Evde Sağlık Doktor Hizmeti</p>
               <p>▪ Evde Hemşirelik Hizmeti</p>
               <p>▪ Enjeksiyon (iğne)</p>
