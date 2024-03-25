@@ -46,7 +46,7 @@ const Header = () => {
             <Link
               target="_blank"
               to={
-                "https://www.instagram.com/sakaryaevdesaglik.esh/"
+                "https://www.google.com/maps/place/40%C2%B046'30.7%22N+30%C2%B023'34.4%22E/@40.7752,30.3903251,17z/data=!3m1!4b1!4m4!3m3!8m2!3d40.7752!4d30.3929?entry=ttu"
               }
             >
               <div>
